@@ -47,7 +47,7 @@ import streamlit as st
 from datetime import date, timedelta
 
 # 📥 Load data
-df = pd.read_csv("/Users/tamangsujan/Documents/webform/700.csv")
+df = pd.read_csv("700.csv")
 df['Date'] = pd.to_datetime(df['Date'], format='mixed', errors='coerce')
 
 # 🏷️ Title
