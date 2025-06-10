@@ -2,7 +2,7 @@
 # import matplotlib.pyplot as plt
 # import streamlit as st
 
-# df = pd.read_csv("/Users/tamangsujan/Documents/webform/500.csv")
+# df = pd.read_csv("/Users/tamangsujan/Documents/webform/700.csv")
 # df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
 
 # st.title("🚦 Kathmandu Accident Visualizer")
