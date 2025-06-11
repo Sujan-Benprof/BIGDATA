@@ -94,8 +94,8 @@ if not filtered.empty:
     st.pyplot(fig)
 
     # 🔮 Ride Safety Prediction for Tomorrow
-    tomorrow = date.today() + timedelta(days=1)
-    st.subheader(f"🔮 Ride analysis)")
+    #tomorrow = date.today() + timedelta(days=1)
+    st.subheader("🔮 Ride analysis")
 
     total_accidents = df[df['Location'] == location].shape[0]
 
