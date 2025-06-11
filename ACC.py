@@ -95,7 +95,7 @@ if not filtered.empty:
 
     # 🔮 Ride Safety Prediction for Tomorrow
     tomorrow = date.today() + timedelta(days=1)
-    st.subheader(f"🔮 Ride Safety Prediction for Tomorrow ({tomorrow.strftime('%B %d, %Y')})")
+    st.subheader(f"🔮 Ride analysis)")
 
     total_accidents = df[df['Location'] == location].shape[0]
 
