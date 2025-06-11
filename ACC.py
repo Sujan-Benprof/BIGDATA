@@ -109,7 +109,7 @@ if not filtered.empty:
     st.markdown(f"""
     **📍 Location:** `{location}`  
     **📊 Total Historical Accidents:** `{total_accidents}`  
-    → **Recommendation for {tomorrow.strftime('%A')}:** {status}
+    → **Recommendation for  {status}
     """)
 
 else:
